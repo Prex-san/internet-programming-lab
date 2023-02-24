@@ -6,4 +6,4 @@ A webpage to compile all the IP Lab exercises.
 * Exercise 1 : Map
 * Exercise 1.2 : Timetable
 * Exercise 2 : College Website
-
+* Exercise 3 : Login Form
