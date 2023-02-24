@@ -1,0 +1,79 @@
+html,body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    height:100%;
+    background-image: url(background.jpeg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#login-form{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    width:fit-content;
+    border: rgba(82, 11, 248, 0.4) 1px solid;
+    height: 500px;
+    font-size: 20px;
+    padding:50px;
+    border-radius: 10px;
+    background-color: rgba(82, 11, 248, 0.3);
+    color:white;
+}
+.form-element > label{
+    font-weight: bolder;
+}
+#login-form > .form-element{
+
+    display: flex;
+    width:400px;
+    justify-content: space-between;
+    align-items: center;
+}
+#login-form > .button{
+    align-self: center;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+#login-form > .radio-button.form-element{
+    gap:5px;
+}
+.form-element > .text{
+    font-size: 20px;
+    border-radius:5px;
+    font-family: 'Quicksand', sans-serif;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height:100%;
+    gap:50px;
+
+    margin:0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.form-container h1{
+    font-size:40px;
+    color: white;
+}
+#login-form > .button:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color:rgba(82, 11, 248);
+}
+.form-element > .text:hover{
+    background-color: lightblue;
+}
+.form-element > .text:focus{
+    background-color: lightblue;
+    color:rgba(82, 11, 248);
+}
